@@ -163,12 +163,12 @@ class ThreeWinsTest {
 
     static Stream<Arguments> givenValidField_whenCheckEndOfGame_returnFalse() {
         return Stream.of(
-                Arguments.of(new String[][]{
+                Arguments.of((Object) new String[][]{
                         {" ", " ", " ", " "},
                         {" ", " ", " ", " "},
                         {" ", " ", " ", " "}
                 }),
-                Arguments.of(new String[][]{
+                Arguments.of((Object) new String[][]{
                         {"O", "X", "O", " "},
                         {"X", "O", "X", "O"},
                         {"O", "X", "O", "X"}

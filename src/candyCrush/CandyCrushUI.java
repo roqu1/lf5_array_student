@@ -19,6 +19,7 @@ public class CandyCrushUI extends JFrame {
         setVisible(true);
         setContentPane(new Canvas(size));
         setSize(size + 10, size + 30);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     public static void main(String[] args) throws Exception {

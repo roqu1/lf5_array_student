@@ -26,6 +26,7 @@ public class ImageProcessorUI extends JFrame {
         setVisible(true);
         setSize(1600, 900);
         setLayout(null);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         this.imgOrigLabel = new JLabel();
         imgOrigLabel.setBounds(0, COMPONENT_HEIGHT, 780, 800);

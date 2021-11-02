@@ -44,6 +44,7 @@ public class GameOfLifeUI extends JFrame {
             }
         });
         getContentPane().add(btn);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         for (int y = 0; y < 10; y++) {
             for (int x = 0; x < 10; x++) {
