@@ -12,6 +12,6 @@ pipelines:
           - echo "Everything is awesome!"
           - git rm --cached -r */solution.md
           - git rm --cached -r bitbucket-pipelines.yml
-          - git remote add work https://szut_anwend_user:Szut12345!@bitbucket.org/szut_anwend/lf5_array_student.git
+          - git remote add work https://berndheidemann:ATBBU5m5nuPUbH4wNEVFb2rQFvRj9503FD57@bitbucket.org/szut_anwend/lf5_array_student.git
           - git commit -m "process-ci"
           - git push work master --force
