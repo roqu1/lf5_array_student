@@ -154,7 +154,7 @@ public class GameOfLifeTest {
 	}
 
 	@Test
-	void testSimulationOverSameBoard(){
+	void givenSteadyState_whenSimulationOver_thenReturnTrue(){
 		game.initializeBoard(0);
 		game.setAliveCell(2, 2);
 		game.setAliveCell(2, 3);

@@ -2,15 +2,17 @@
 
 ![](./images/Arrays.jpg)
 
-Infoblätter: 
+###Infoblätter: 
 * [IB eindimensionale Arrays](IB eindimensionale Arrays.md)
 * [IB zweidimensionale Arrays](IB zweidimensionale Arrays.md)
+* [IB Exceptions](IB Exceptions.md)
 
-Folgende Aufgaben sind enthalten
+###Aufgaben:
 
-* [Volume Filter*](./src/volumeFilter/task.md)
 * [Random Numbers*](./src/randomNumbers/task.md)
+* [Volume Filter*](./src/volumeFilter/task.md)
 * [Array Calculator*-**](./src/arrayCalculator/task.md)
+* [Temperature Analyzer**](./src/analyzingTemperatureData/task.md)
 * [Array Sum 2d **](./src/arraySum2d/task.md)
 * [Three Wins **](./src/threeWins/task.md)
 * [Game of Life **](./src/gameOfLife/task.md)

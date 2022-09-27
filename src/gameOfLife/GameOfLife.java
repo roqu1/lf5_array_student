@@ -31,10 +31,6 @@ public class GameOfLife {
 		return '-';
 	}
 
-	private boolean cellDead(int row, int col) {
-		return true;
-	}
-
 	public int getAliveCells() {
 		return 0;
 	}
