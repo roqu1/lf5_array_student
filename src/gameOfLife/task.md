@@ -1,4 +1,4 @@
-#Game of Life****
+# Game of Life****
 In einer Petrischale wird eine Kolonie von Zellen gezüchtet. Auf der Petrischale sind die Zellen wie auf einem Schachbrett
 angeordnet. Zwei Zellen, die senkrecht, waagerecht oder diagonal aneinander grenzen, nennt man benachbart. Eine Zelle hat 
 also bis zu acht Nachbarn. Die Zellen einer Petrischale können tot oder lebendig sein. Lebende Zellen werden durch einen 
@@ -18,13 +18,13 @@ die Anzahl der lebenden Zellen über ein Input-Dialog festgelegt. Die Größe de
 kann also maximal mit 100 lebendigen Zellen durchgeführt werden. Deine Aufgabe ist es, die Logikschicht der Anwendung zu 
 implementieren.
 
-###Aufgaben
+### Aufgaben
 Um dich mit dem Aussehen der GUI vertraut zu machen, führe die main-Methode der Klasse `GameOfLifeUI` aus. Da noch keine 
 Logik vorhanden ist, bewirkt ein Klick auf den Button oder die Label noch nichts. Schließe das Fenster, wenn du fertig bist.
 Orientiere dich bei der Implementierung an den Tests, indem du den Code schreibst, um einen Test zu erfüllen, ihn ausführst 
 und dir dann den nächsten vornimmst. Zwischendurch kannst du immer wieder die GUI starten, um den erreichten Stand zu 
 überprüfen.
-####1.
+#### 1.
 Um das Spielfeld zu initialisieren und lebende Zellen in die Petrischale setzen zu können, müssen zunächst folgende Methoden
 implementiert werden:
 - `public void initializeBoard(int number)` initialisiert die Petrischale mit der ihr übergebenen Anzahl an lebenden Zellen,
@@ -47,7 +47,7 @@ Aufgabe zuständig sind. Ist das nicht der Fall, lagere Codesnippets in private 
 Die Methoden werden von den ersten sechs Tests validiert. Starte wiederum die GUI. Nun müsstest du eine Petrischale mit 
 der gewünschten Anzahl an Zellen initialisieren können und per Mausklick auf einzelne Zellen lebende Zellen setzen können.
 
-####2.
+#### 2.
 Als nächstes ist die Logik der Simulation zu implementiren, so dass ein Klick auf den Button "Nächste Generation" eine 
 neue Generation von Zellen simuliert und dabei die oben beschriebenen Regeln anwendet. Dazu sind folgende Methoden zu 
 implementieren:

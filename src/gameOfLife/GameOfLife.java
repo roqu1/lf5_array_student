@@ -2,44 +2,32 @@ package gameOfLife;
 
 public class GameOfLife {
 
-	public void initializeBoard(int number) {
+    private char[][] petridish;
 
-	}
+    public void initializeBoard(int number) {
+    }
 
-	public char[][] getBoard() {
-		char[][] result =
-				{
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'},
-						{'O', 'O', 'O','O','O','O','O','O','O','O'}
-				};
-		return result;
-	}
+    public char[][] getBoard() {
+        return null;
+    }
 
-	public boolean setAliveCell(int row, int col) {
-		return true;
-	}
+    public boolean setAliveCell(int row, int col) {
+        return true;
+    }
 
-	public char getCellStatus(int row, int col) {
-		return '-';
-	}
+    public char getCellStatus(int row, int col) {
+        return '-';
+    }
 
-	public int getAliveCells() {
-		return 0;
-	}
+    public int getAliveCells() {
+        return 0;
+    }
 
-	public void simulate() {
+    public void simulate() {
 
-	}
+    }
 
-	public boolean simulationOver() {
-		return false;
-	}
+    public boolean simulationOver() {
+        return false;
+    }
 }
