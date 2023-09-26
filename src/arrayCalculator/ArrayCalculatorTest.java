@@ -63,6 +63,8 @@ public class ArrayCalculatorTest {
                 Arguments.of(new int[]{13, -22, 82, 17}, new int[]{-12 - 79, -13}),
                 Arguments.of(new int[]{45}, new int[0])
         );
+
+
     }
 
     @ParameterizedTest()
@@ -94,7 +96,6 @@ public class ArrayCalculatorTest {
     public void givenOneArray_whenSumOdd_returnSumOfEvenNumbers(int[] array, int result) {
         assertEquals(result, this.calc.sumEven(array));
     }
-
 
     static Stream<Arguments> givenOneArray_whenSumOdd_returnSumOfEvenNumbers() {
         return Stream.of(
