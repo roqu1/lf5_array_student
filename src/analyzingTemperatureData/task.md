@@ -16,3 +16,23 @@ Die höchste Anzahl von hintereinander liegenden Werten, welche den Mindestwert 
 1. Implementiere in der Klasse `TemperatureAnalyzer` die oben beschriebene Methode
 `public int getMaxPeriod(double[] temperatureList, double minValue)`.
 
+
+´´´´java´´´´
+public class TemperatureAnalyzer {
+    public int getMaxPeriod(double[] temperatureList, double minValue) {
+ double maxPeriod = 0;
+    double currentPeriod = 0;
+    for (int i = 0; i < temperatureList.length; i++) {
+        if (temperatureList[i] >= minValue) {
+            currentPeriod++;
+        } else {
+            if (currentPeriod > maxPeriod) {
+                maxPeriod = currentPeriod;
+            }
+            currentPeriod = 0;
+        }
+    }
+    if (currentPeriod > maxPeriod) {
+        maxPeriod = currentPeriod;
+    }
+    return (int) maxPeriod;
